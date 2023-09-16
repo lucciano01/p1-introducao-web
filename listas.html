@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Listas</h1>
+    <!--Listas Ordenadas-->
+    <ol type="I">
+        <li>Pizza</li>
+        <li>Churrasco</li>
+        <li>Hamburguer</li>
+    </ol>
+     <!--Listas Nao Ordenadas-->
+    <ul>
+        <li>Pizza</li>
+        <li>Churrasco</li>
+        <li>Hamburguer</li>
+    </ul>
+    <!--Listas De Definição-->
+    <dt>Java</dt>
+    <dd>Java SE</dd>
+    <dt>Java EE</dt>
+    <dd>Java Enterprise Edition</dd>
+    <dt>Javscript</dt>
+    <dd>NodeJs</dd>
+    <!--Listas Aninhadas-->
+    <ul>
+        <li> 
+            <span element-control>src</span>
+            <ul>
+                <li>java 
+                    <ul>
+                        <li>pessoa</li>
+                        <li>main</li>
+                        <li>bd</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span element-control>recursos</span> 
+            <ul>
+                <li>config 
+                    <ul>
+                        <li>application</li>
+                        <li>docker</li>
+                        <li>git</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <script>
+        document.querySelectorAll('[element-control]').forEach(el =>{
+            el.onclick = function(e){
+                const ul = el.nextElementSibling
+                const disabled = ul.style.display
+                ul.style.display = disabled === 'none' ? 'block' : 'none'
+            }
+        })
+    </script>
+
+</body>
+</html>

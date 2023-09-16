@@ -1,0 +1,17 @@
+<tag>
+    <!--Comentarios-->
+</tag>
+
+<tagComposta>
+    <tagInterna>
+
+    </tagInterna>
+</tagComposta>
+
+<tag valor="Teste">
+    Conteudo da tag
+</tag>
+
+
+Um texto qualquer
+de exemplo

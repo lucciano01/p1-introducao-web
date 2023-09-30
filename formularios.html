@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <center>
+        <h1>
+            Cadastro de Usuários
+                       
+        </h1>
+    </center>
+    <hr/>
+
+    <form>
+        <fieldset>
+            <legend>Login</legend>
+
+            Email
+            <input type="email" name="email" placeholder="Digite seu email"><br><br>
+            Senha
+            <input type="password" name="senha" placeholder="Digite sua senha"><br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            Nome
+            <input type="text" name="nome" placeholder="Digite seu Nome"><br><br>
+            Data de Nascimento
+            <input type="date" name="data_nascimento" pattern="dd/mm/aaaa" 
+            ><br><br>
+            Genero : 
+            <input type="radio" name="genero" value="masculino">Masculino
+            <input type="radio" name="genero" value="feminino">Feminino
+            <br><br>
+            Linguagens de Programação<br><br>
+            <input type="checkbox" name="linguagem" value="java">Java
+            <br>
+            <input type="checkbox" name="linguagem" value="node">Node
+            <br>
+            <input type="checkbox" name="linguagem" value="python">Python
+            <br>
+            <input type="checkbox" name="linguagem" value="go">Go
+            <br>
+            <input type="checkbox" name="linguagem" value="javascript">Javascript
+            <br>
+
+        </fieldset>
+    </form>
+    
+    
+</body>
+</html>

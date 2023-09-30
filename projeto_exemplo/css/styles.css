@@ -1,0 +1,131 @@
+body {
+    /* retira as margens da margem no navegador */
+    margin: 0;
+    /* especifica o tipo de fonte (deve ser instalada) */
+    font-family: 'Nunito', sans-serif;
+}
+
+    /* qualquer tag a irá possuir essa cor */
+a {
+    color: #2E94CC;
+}
+    /* css para o cabecalho */
+header {
+    background-color: #2E94CC;
+    color: white;
+    text-align: center;
+    /* margem superior */
+    padding-top: 25px;
+    /* margem inferior */
+    padding-bottom: 25px;
+    /* tamanho da fonte */
+    font-size: 24px;
+    /* espaço entre as letras */
+    letter-spacing: 0.6px;
+     /* espaço entre linhas */
+    line-height: 30px;
+}
+
+article {
+    /* largura maxima do elemento na pagina */
+    max-width: 850px;
+    /* margem automatica para todos os elementos da pagina */
+    margin: auto;
+    /* margem esquerda */
+    padding: 8px;
+    /* margem superior */
+    padding-top: 70px;
+}
+
+.instituicao {
+    color: #6C6C6C;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/* classe compartilhar e titulo de links */
+.compartilhar, 
+.links-title {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+/* margem direita */
+.compartilhar span {
+    margin-right: 4px;
+}
+
+/* correcao alinhamento vertical */
+.compartilhar img {
+    vertical-align: middle;
+}
+
+.links-title {
+    margin-bottom: 12px;
+}
+
+.maiuscula {
+    text-transform: uppercase;
+}
+
+.imagem-principal {
+    margin: 50px 0;
+}
+.imagem-principal img {
+    max-width: 100%;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 52px;
+    letter-spacing: 1.3px;
+    line-height: 58px
+}
+
+article p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#content-section {
+    max-width: 680px;
+    margin: auto;
+}
+
+iframe {
+    margin: 50px 0;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #F1F1F1;
+    max-width: 680px;
+    margin: auto;
+    padding: 20px 15px;
+    margin-bottom: 70px;
+}
+
+footer ul {
+    /* remover marcadores da lista */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+/* alterar a margem inferior de cada elemento da lista */
+footer ul li {
+    margin-bottom: 12px;
+}
+
+/* reduzir a margem do ultimo elemento da lista */
+footer ul li:last-of-type {
+    margin-bottom: 0;
+}

@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Alterando dados da pagina via JS</h1>
+    <div id="resultado">
+        <p>Aqui deve aparecer o resultado!</p>
+    </div>
+    <button onclick="alterar()">Alterar Valor</button>
+    <script>
+       function alterar(){
+        let nome = prompt("Digite seu nome:")
+        let resultado = document.getElementById('resultado')
+        resultado.innerHTML = `<p> Olá ${nome},  Seja bem vindo!<p>`
+       } 
+    </script>
+
+</body>
+</html>

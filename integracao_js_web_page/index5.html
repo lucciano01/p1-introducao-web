@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div id="resultado">
+        <p>Resultado da soma!</p>
+    </div>
+    <button onclick="calcular()">Somar</button>
+    <script>
+        function calcular(){
+            let numero1 = Number(prompt("Digite o primeiro número: "))
+            let numero2 = Number(prompt("Digite o segundo número: "))
+            let resultado = document.getElementById('resultado')
+            let teste = 10/2
+
+            resultado.innerHTML = `<p>A soma de ${numero1} + ${numero2} é ${numero1+numero2}</p>`
+            resultado.innerHTML += `<p> Concantenando com teste ${teste}<p>`
+        }
+    </script>
+
+</body>
+</html>
